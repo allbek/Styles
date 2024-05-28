@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Form with Dark Theme</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="light-theme std-font">
+
+    <!-- Форма -->
+    <div class="form-container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-input">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-input">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="form-input">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" class="form-input">
+
+            <label>Gender:</label>
+            <div class="form-radio-group">
+                <input type="radio" id="male" name="gender" value="male" class="form-radio">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" class="form-radio">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other" class="form-radio">
+                <label for="other">Other</label>
+            </div>
+
+            <label>Interests:</label>
+            <div class="form-checkbox-group">
+                <input type="checkbox" id="sports" name="interests" value="sports" class="form-checkbox">
+                <label for="sports">Sports</label>
+                <input type="checkbox" id="music" name="interests" value="music" class="form-checkbox">
+                <label for="music">Music</label>
+                <input type="checkbox" id="movies" name="interests" value="movies" class="form-checkbox">
+                <label for="movies">Movies</label>
+            </div>
+
+            <label for="country">Country:</label>
+            <select id="country" name="country" class="form-select">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <option value="australia">Australia</option>
+            </select>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" class="form-textarea"></textarea>
+
+            <button type="submit" class="form-button">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>
