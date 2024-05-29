@@ -1,5 +1,9 @@
 @import "navbarstyles.css";
 @import "formsstyles.css";
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
 /* Размер шрифта */
 .small-font {
     font-size: 12px;
